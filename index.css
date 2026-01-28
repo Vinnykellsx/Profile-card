@@ -94,6 +94,8 @@ body {
   justify-content: space-around;
   text-align: center;
   align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .numbers {
@@ -121,12 +123,6 @@ body {
     overflow-x: hidden;
   }
 
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .bg {
     position: fixed;
     width: 650px;
@@ -135,24 +131,49 @@ body {
   }
 
   .bg-top {
-    top: -55vh;
-    left: -65vw;
+    top: -45vh;
+    left: -95vw;
   }
 
   .bg-bottom {
-    bottom: -55vh;
-    right: -65vw;
+    bottom: -45vh;
+    right: -95vw;
   }
 
   .card {
     width: 90%;
     max-width: 350px;
+    padding-bottom: 30px;
+  }
+
+  .patcard {
+    height: 150px;
   }
 
   .cover {
-    top: 88px;
+    width: 120px;
   }
+
   .name {
-    padding-top: 55px;
+    padding-top: 65px;
+    font-size: 1.3rem;
+  }
+
+  .age {
+    font-size: 1.2rem;
+  }
+
+  .location {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 1.1rem;
+  }
+
+  .numbers {
+    font: size 1.4rem;
+  }
+
+  .numbers span {
+    font-size: 0.85rem;
   }
 }
