@@ -111,28 +111,48 @@ body {
 }
 
 @media (max-width: 430px) {
-  body{
-    display: grid;
-    place-items: center;
-    overflow: hidden;
+  html {
+    background-color: hsl(185, 75%, 39%);
   }
-  
+
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .bg {
-    width: 600px;
+    position: fixed;
+    width: 650px;
+    z-index: 0;
+    pointer-events: none;
   }
 
   .bg-top {
-    top: -45vh;
-    left: -80vw;
+    top: -55vh;
+    left: -65vw;
   }
 
   .bg-bottom {
-    bottom: -45vh;
-    right: -80vw;
+    bottom: -55vh;
+    right: -65vw;
   }
 
-  /* 4️⃣ Tighten text spacing (optional but nice) */
-  .card-body {
-    padding-top: 65px;
+  .card {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .cover {
+    top: 88px;
+  }
+  .name {
+    padding-top: 55px;
   }
 }
