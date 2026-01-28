@@ -124,7 +124,7 @@ body {
   }
 
   .bg {
-    position: fixed;
+    position: absolute;
     width: 650px;
     z-index: 0;
     pointer-events: none;
